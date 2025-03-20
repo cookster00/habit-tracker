@@ -49,6 +49,7 @@ This is a modern, visually appealing Habit Tracker built with **React**, **Vite*
    git clone https://github.com/cookster00/habit-tracker.git
    cd habit-tracker
    Install dependencies:
+   npm install
 
 Start the development server:
 
