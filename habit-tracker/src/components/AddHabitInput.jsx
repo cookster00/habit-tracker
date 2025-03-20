@@ -11,17 +11,17 @@ const AddHabitInput = ({ addHabit }) => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
       <input
         type="text"
         value={habitName}
         onChange={(e) => setHabitName(e.target.value)}
         placeholder="Add a new habit"
-        className="p-2 border rounded w-full"
+        className="p-2 border rounded w-full mb-2"
       />
       <button
         onClick={handleAddHabit}
-        className="mt-2 bg-blue-500 text-white p-2 rounded w-full"
+        className="bg-blue-600 text-white p-2 rounded w-full hover:bg-blue-500 transition"
       >
         Add Habit
       </button>
